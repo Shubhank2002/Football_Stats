@@ -6,7 +6,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.post("http://localhost:8000/match/get", {
+        const res = await axios.post("https://football-stats-frontend-rcgx.onrender.com /match/get", {
           matchId: 1,
         });
         setstats(res.data);
