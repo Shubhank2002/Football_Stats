@@ -17,10 +17,10 @@ const MatchSchema = new mongoose.Schema({
     type: String,
   },
   stats: {
-    teamA:[StatsSchema],
-    teamB:[StatsSchema],
+    teamA:StatsSchema,
+    teamB:StatsSchema,
   },
-});
+},{timestamps:true});
 
 const MatchModel=mongoose.model('match',MatchSchema)
 
