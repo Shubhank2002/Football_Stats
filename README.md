@@ -4,6 +4,8 @@ This project includes both a frontend (React) and a backend (Node.js + Express +
 Frontend URL:https://football-stats-frontend-rcgx.onrender.com
 Backend URL:https://football-stats-5iin.onrender.com
 
+my project is deployed on Render (Both Frontend and Backend)
+
 If Frontend Url do not works try the below process
 
 📦 Prerequisites
