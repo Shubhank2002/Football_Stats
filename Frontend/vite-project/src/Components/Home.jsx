@@ -20,11 +20,11 @@ const Home = () => {
   }
   return (
     <div className="flex flex-col gap-25 p-14 items-center">
-      <h1 className="text-4xl font-bold">Football Stats</h1>
-      <div className="flex flex-col gap-5 border-1 rounded-lg p-5 hover:scale-125 ">
+      <h1 className="text-4xl font-extraboldbold">⚽ Football Match Stats</h1>
+      <div className="flex flex-col gap-5 border-1 rounded-lg p-5 hover:scale-125 border-gray-700">
         <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x  divide-y">
-          <h1 className="text-center">Date</h1>
-          <h1 className="col-span-2 text-center">{stats.date}</h1>
+          <h1 className="text-center text-blue-400">Date</h1>
+          <h1 className="col-span-2 text-center text-red-400">{stats.date}</h1>
         </div>
         <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
           <h1 className="text-center border-none"></h1>
