@@ -37,7 +37,7 @@ const Home = () => {
           <h1 className="text-center text-red-400">{stats.stats.teamB.goals}</h1>
         </div>
         <div className="grid grid-cols-3 gap-5 border-1 border-white rounded-lg divide-x  divide-y divide-white">
-          <h1 className="text-cente text-blue-400">Possession</h1>
+          <h1 className="text-center text-blue-400 ">Possession</h1>
           <h1 className="text-center text-red-400">{stats.stats.teamA.possession}</h1>
           <h1 className="text-center text-red-400">{stats.stats.teamB.possession}</h1>
         </div>
