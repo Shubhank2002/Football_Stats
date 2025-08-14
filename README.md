@@ -1,6 +1,11 @@
 🚀 Getting Started
 This project includes both a frontend (React) and a backend (Node.js + Express + MongoDB). Follow the steps below to run both locally.
 
+Frontend URL:https://football-stats-frontend-rcgx.onrender.com
+Backend URL:https://football-stats-5iin.onrender.com
+
+If Frontend Url do not works try the below process
+
 📦 Prerequisites
 Make sure you have the following installed:
 - Node.js (v14 or higher)
@@ -21,6 +26,13 @@ Configure Enviornment Variable
 
 Start the Server
   node Server.js
+
+Setup Frontend=>
+    Go to Frontend directory,  then go to vite-project and run 
+        npm install
+        npm run dev
+
+        
 
 
 
