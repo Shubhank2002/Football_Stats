@@ -16,12 +16,12 @@ const Home = () => {
     fetchData();
   }, []);
   if (!stats) {
-    return <div>loading...</div>;
+    return <div className="text-center p-5">loading...</div>;
   }
   return (
     <div className="flex flex-col gap-25 p-14 items-center">
       <h1 className="text-4xl font-bold">Football Stats</h1>
-      <div className="flex flex-col gap-5 border-1 rounded-lg p-5 ">
+      <div className="flex flex-col gap-5 border-1 rounded-lg p-5 hover:scale-125 ">
         <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x  divide-y">
           <h1 className="text-center">Date</h1>
           <h1 className="col-span-2 text-center">{stats.date}</h1>
