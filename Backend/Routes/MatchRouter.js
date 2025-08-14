@@ -3,7 +3,7 @@ const { GetMatchData, CreateMatchData } = require('../Controllers/MatchControlle
 const MatchRouter=express.Router()
 
 
-MatchRouter.post('/get',GetMatchData)
+MatchRouter.get('/get/:matchId',GetMatchData)
 MatchRouter.post('/create',CreateMatchData)
 
 module.exports=MatchRouter

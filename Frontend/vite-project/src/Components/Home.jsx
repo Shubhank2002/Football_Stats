@@ -5,10 +5,11 @@ const Home = () => {
   const [stats, setstats] = useState(null);
   useEffect(() => {
     const fetchData = async () => {
+      const matchId = 1;
       try {
-        const res = await axios.post("https://football-stats-5iin.onrender.com/match/get", {
-          matchId: 1,
-        });
+        const res = await axios.get(
+          `https://football-stats-5iin.onrender.com/match/get/${matchId}`
+        );
         setstats(res.data);
       } catch (error) {}
     };
@@ -26,7 +27,7 @@ const Home = () => {
           <h1 className="col-span-2 text-center">{stats.date}</h1>
         </div>
         <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
-          <h1 className="text-center"></h1>
+          <h1 className="text-center border-none"></h1>
           <h1 className="text-center">Team A</h1>
           <h1 className="text-center">Team B</h1>
         </div>

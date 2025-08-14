@@ -1,12 +1,12 @@
 const MatchModel = require("../Models/UserModel");
 
 const GetMatchData = async (req, res) => {
-  const { matchId } = req.body;
+  const { matchId } = req.params;
   try {
     const MatchStats = await MatchModel.findOne({ matchId: matchId });
     res.status(200).json(MatchStats);
   } catch (error) {
-    res.status(404), json({ message: "Stats not found" });
+    res.status(404).json({ message: "Stats not found" });
   }
 };
 
