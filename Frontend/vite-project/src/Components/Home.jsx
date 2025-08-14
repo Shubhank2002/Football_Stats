@@ -19,9 +19,9 @@ const Home = () => {
     return <div className="text-center p-5">loading...</div>;
   }
   return (
-    <div className="flex flex-col gap-20 p-14 items-center">
-      <h1 className="text-4xl font-extraboldbold cursor-pointer hover:scale-115">⚽ Football Match Stats</h1>
-      <div className="flex flex-col gap-5 border-1 rounded-lg p-5 hover:scale-115 border-gray-700">
+    <div className="flex flex-col gap-20 p-14 items-center bg-gray-900">
+      <h1 className="text-4xl font-extraboldbold cursor-pointer hover:scale-115 transition-transform duration-300">⚽ Football Match Stats</h1>
+      <div className="flex flex-col gap-5 border-1  p-5 hover:scale-115 bg-gray-800 rounded-xl shadow-lg transition-transform duration-300">
         <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x  divide-y">
           <h1 className="text-center text-blue-400">Date</h1>
           <h1 className="col-span-2 text-center text-red-400">{stats.date}</h1>
@@ -29,7 +29,7 @@ const Home = () => {
         <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
           <h1 className="text-center border-none"></h1>
           <h1 className="text-center text-blue-400">Team A</h1>
-          <h1 className="text-center text-red-400">Team B</h1>
+          <h1 className="text-center text-blue-400">Team B</h1>
         </div>
         <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
           <h1 className="text-center text-blue-400">Goals</h1>
@@ -37,7 +37,7 @@ const Home = () => {
           <h1 className="text-center text-red-400">{stats.stats.teamB.goals}</h1>
         </div>
         <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
-          <h1 className="text-cente text-blue-400r">Possession</h1>
+          <h1 className="text-cente text-blue-400">Possession</h1>
           <h1 className="text-center text-red-400">{stats.stats.teamA.possession}</h1>
           <h1 className="text-center text-red-400">{stats.stats.teamB.possession}</h1>
         </div>
