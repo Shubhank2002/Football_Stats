@@ -30,32 +30,32 @@ const Home = () => {
           <h1 className="text-center">Team A</h1>
           <h1 className="text-center">Team B</h1>
         </div>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
           <h1 className="text-center">Goals</h1>
           <h1 className="text-center">{stats.stats.teamA.goals}</h1>
           <h1 className="text-center">{stats.stats.teamB.goals}</h1>
         </div>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
           <h1 className="text-center">Possession</h1>
           <h1 className="text-center">{stats.stats.teamA.possession}</h1>
           <h1 className="text-center">{stats.stats.teamB.possession}</h1>
         </div>
-        <div className="grid grid-cols-3 gap-5 ">
+        <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
           <h1 className="text-center">Total passes</h1>
           <h1 className="text-center">{stats.stats.teamA.passes}</h1>
           <h1 className="text-center">{stats.stats.teamB.passes}</h1>
         </div>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
           <h1 className="text-center">Shots</h1>
           <h1 className="text-center">{stats.stats.teamA.shots}</h1>
           <h1 className="text-center">{stats.stats.teamB.shots}</h1>
         </div>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
           <h1 className="text-center">Shots on Target</h1>
           <h1 className="text-center">{stats.stats.teamA.shotsOnTarget}</h1>
           <h1 className="text-center">{stats.stats.teamB.shotsOnTarget}</h1>
         </div>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-3 gap-5 border-1 rounded-lg divide-x divide-y">
           <h1 className="text-center">Corners</h1>
           <h1 className="text-center">{stats.stats.teamA.corners}</h1>
           <h1 className="text-center">{stats.stats.teamB.corners}</h1>
