@@ -1,8 +1,8 @@
 🚀 Getting Started
 This project includes both a frontend (React) and a backend (Node.js + Express + MongoDB). Follow the steps below to run both locally.
 
-Frontend URL:https://football-stats-frontend-rcgx.onrender.com
-Backend URL:https://football-stats-5iin.onrender.com
+Frontend URL:https://football-stats-frontend1.onrender.com
+Backend URL:https://football-stats-backend-w308.onrender.com
 
 my project is deployed on Render (Both Frontend and Backend)
 
