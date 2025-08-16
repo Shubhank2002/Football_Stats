@@ -8,7 +8,7 @@ const Home = () => {
       const matchId = 1;
       try {
         const res = await axios.get(
-          `https://football-stats-5iin.onrender.com/match/get/${matchId}`
+          `https://football-stats-backend-w308.onrender.com/match/get/${matchId}`
         );
         setstats(res.data);
       } catch (error) {}
